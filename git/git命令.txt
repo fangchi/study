@@ -1,0 +1,55 @@
+# 生成密匙
+$ ssh-keygen
+# 克隆到test1abc文件夹下
+$ git clone git@leozone08.xicp.net:testing test1abc
+# git 初始化
+$ git init
+Initialized empty Git repository in e:/indigo_workspace/aaa/.git/
+Administrator@ADMIN-PC /E/indigo_workspace/aaa (master)
+# 添加到远程aaa
+$ git remote add origin git@leozone08.xicp.net:users/fangchi/aaa
+Administrator@ADMIN-PC /E/indigo_workspace/aaa (master)
+# 查看远程版本
+$ git remote -v
+origin  git@leozone08.xicp.net:users/fangchi/aaa (fetch)
+origin  git@leozone08.xicp.net:users/fangchi/aaa (push)
+Administrator@ADMIN-PC /E/indigo_workspace/aaa (master)
+# 添加本地仓库 如果需要删除文件 添加 --all
+$ git add .avxc
+Administrator@ADMIN-PC /E/indigo_workspace/aaa (master)
+# 查看branch版本
+$ git branch -v
+#在远程创建
+$ git push origin master
+# 查看git 全局配置
+$ git config --global --list
+# 切换到 test的branch中
+$ git checkout -b test
+# push 到 test中
+$ git push origin test
+# 切换到 master
+$ git checkout master
+# 删除branch
+$ git branch -d fc
+# 删除远程的branch 他
+$ git push origin   :t1
+# 合并t1至当前的目录
+$ git merge t1
+#切换到自己的分支
+$git checkout --track origin/fangchi/master
+#clone到别名为IIMP的位置
+git clone gitolite:iimp newName
+#将master 推送到fangchi下的master
+git push origin master:fangchi/master
+#设置目标
+git checkout --track  fangchi/master
+#获取服务器最新
+git fetch -p
+#更新子模块 会从仓库拉起最新的数据
+$git submodule update
+# 向git中上传初始化仓库
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:fangchi/study.git
+git push -u origin master

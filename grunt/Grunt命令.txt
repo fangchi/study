@@ -1,0 +1,9 @@
+#卸载
+npm uninstall -g grunt
+
+# 添加命令行
+npm install -g grunt-cli
+
+
+#卸载
+npm install
