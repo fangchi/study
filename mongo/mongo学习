@@ -1,0 +1,6 @@
+登陆 切换至{mongo_home}/bin
+ ./mongo
+显示所有数据库
+ show dbs 
+切换到对应数据库
+ use xxx

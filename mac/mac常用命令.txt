@@ -1,0 +1,5 @@
+注册 ：cat >> /usr/local/bin/sublime
+#!/bin/sh
+/Applications/Sublime\ Text\ 2.app/Contents/MacOS/Sublime\ Text\ 2 $*
+
+查看进程 ps -ef|grep mysql
