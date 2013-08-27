@@ -4,3 +4,6 @@
  show dbs 
 切换到对应数据库
  use xxx
+dml语句类似
+  var a = {'s':'s'};
+  db.xxxxxx.save(a);

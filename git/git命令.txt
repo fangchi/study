@@ -55,3 +55,6 @@ git remote add origin git@github.com:fangchi/study.git
 git push -u origin master
 # 对比
 git diff m .. dev
+
+#git 的配置文件安装在 /Users/xxx/.ssh文件夹中
+其中config 配置主机的地址
