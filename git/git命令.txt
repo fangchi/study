@@ -58,7 +58,16 @@ git diff m .. dev
 #创建远程分支
 git push origin local:fangchi/master
 # 删除远程分支
-git branch -d -r origin/fangchi/master
-
+git branch -d -r origin/fangchi/master 
+# 删除远程分支和Tag
+git push origin --delete tag <tagname/>
+# 查看Tag
+git tag
+# 创建Tag
+git tag [name]
+查看远程Tag
+$ git tag -r
+# 切换到tag
+git checkout -b branch_name tag_name
 #git 的配置文件安装在 /Users/xxx/.ssh文件夹中
 其中config 配置主机的地址
