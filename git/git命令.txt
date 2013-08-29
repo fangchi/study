@@ -57,6 +57,8 @@ git push -u origin master
 git diff m .. dev
 #创建远程分支
 git push origin local:fangchi/master
+# 删除远程分支
+git branch -d -r origin/fangchi/master
 
 #git 的配置文件安装在 /Users/xxx/.ssh文件夹中
 其中config 配置主机的地址
