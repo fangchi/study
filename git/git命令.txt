@@ -57,7 +57,7 @@ git push -u origin master
 git diff m .. dev
 #创建远程分支
 git push origin local:fangchi/master
-# 删除远程分支
+# 删除远程分支p
 git branch -d -r origin/fangchi/master 
 # 删除远程分支和Tag
 git push origin --delete tag <tagname/>
