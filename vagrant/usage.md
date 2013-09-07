@@ -44,4 +44,6 @@ config.vm.provider 虚拟机实现（VirtaulBox,VMWare）
 
 `$ vagrant destroy` 销毁所有虚拟机
 
+`$ vagrant box list` 列举虚拟机
+
 [通篇教学] (http://gogojimmy.net/2013/05/26/vagrant-tutorial/)
