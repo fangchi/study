@@ -57,6 +57,11 @@ $knife solo prepare vagrant@ip
 
 `$sudo knife solo cook vagrant@ip --ssh-identity vagrant.key`
 
+`knife data bag from file admin william.json`
+
+下载nodejs模块 其他入js
+`$knife solo cook site download nodejs`  
+
 以上两条命令的合并
 `$knife solo bootstrap vagrant@ip`
 
