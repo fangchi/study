@@ -75,3 +75,5 @@ $ git tag -r
 git checkout -b branch_name tag_name
 #git 的配置文件安装在 /Users/xxx/.ssh文件夹中
 其中config 配置主机的地址
+#push到远程分支
+git push origin fc:fangchi/fc
