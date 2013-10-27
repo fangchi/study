@@ -16,6 +16,8 @@ Vagrant是一个基于Ruby的工具，用于创建和部署虚拟化开发环境
 ----------------
 `$ vagrant up --provider=vmware_fusion` 设置虚拟机依赖的组件为vmware
 
+`$ sudo launchctl load /Library/LaunchDaemons/org.virtualbox.startup.plist` 当OS为OSX 10.9的时候 需要首先载入启动参数
+
 `$ vagrant init precise32 http://files.vagrantup.com/precise32.box` 初始化一个基于Ubuntu 12.04 LTS 32-bit 操作系统 执行完该命令之后会在当前文件夹创建一个Vagrantfile的文件，而precise32.box相当于一个虚拟机的**镜像（Image）**
 - Vagrantfile 是一个定义虚拟机的配置文件（包含名称，镜像地址，网络等），也就是说如果需要复制一个开发环境 ，仅仅需要一个VagrantFile这样的配置文件就可以通过vagrant up命令构建一个一模一样的虚拟机
 - Vagrantfile 的语法模式是Ruby，但是其实基本不需要十分了解Ruby的语法，大部分是一些变量的赋值
