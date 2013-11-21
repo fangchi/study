@@ -7,3 +7,4 @@
 在/usr/local/bin 的文件是可以全局访问，.sh文件需要进行运行提权 chmod 775 xxxx 进行执行
 
 同时通过修噶 ~/.bash_profile 进行别名设置
+通过sudo . .bash_profile 更新
