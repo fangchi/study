@@ -77,3 +77,7 @@ git checkout -b branch_name tag_name
 其中config 配置主机的地址
 #push到远程分支
 git push origin fc:fangchi/fc
+#查看提交记录  退出q
+git log --stat
+#恢复提交记录
+git reset 9aa51d89799716aa68cff3f30c26f8815408e926
