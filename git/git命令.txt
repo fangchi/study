@@ -67,8 +67,11 @@ git tag
 git tag [name]
 #删除tag
 git tag -d [name]
-#远程删除
+#远程删除Tag
+git tag -d [name]
 git push origin :refs/tags/[name]
+
+git push origin --delete tag [tagname]
 查看远程Tag
 $ git tag -r
 # 切换到tag
@@ -80,4 +83,4 @@ git push origin fc:fangchi/fc
 #查看提交记录  退出q
 git log --stat
 #恢复提交记录
-git reset 9aa51d89799716aa68cff3f30c26f8815408e926
+git reset --hard {version_ser}
