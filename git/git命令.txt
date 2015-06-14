@@ -75,7 +75,12 @@ git push origin --delete tag [tagname]
 查看远程Tag
 $ git tag -r
 # 切换到tag
-git checkout -b branch_name tag_name
+git checkout -b branch_name tag_no
+#切换至某个tag
+git checkout -b version2 {tag_no}
+
+
+
 #git 的配置文件安装在 /Users/xxx/.ssh文件夹中
 其中config 配置主机的地址
 #push到远程分支
@@ -84,3 +89,5 @@ git push origin fc:fangchi/fc
 git log --stat
 #恢复提交记录
 git reset --hard {version_ser}
+
+
