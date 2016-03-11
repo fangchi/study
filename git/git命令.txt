@@ -90,4 +90,5 @@ git log --stat
 #恢复提交记录
 git reset --hard {version_ser}
 
-
+远程tag
+git push origin :refs/tags/<tagname>
