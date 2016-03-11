@@ -92,3 +92,4 @@ git reset --hard {version_ser}
 
 远程tag
 git push origin :refs/tags/<tagname>
+git push origin <local_tag>:refs/tags/<tagname>
